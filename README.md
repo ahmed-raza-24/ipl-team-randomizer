@@ -39,8 +39,8 @@ index.html
 in your browser (Chrome, Edge, or Firefox).
 
 Screenshot:
-1.<img width="915" height="703" alt="ipl" src="https://github.com/user-attachments/assets/7c748594-8d85-4a25-afec-6d723a8419ca" />
-2.<img width="792" height="620" alt="stats" src="https://github.com/user-attachments/assets/85b17de0-3021-4820-badf-c97ee88cad4d" />
+1. Before click (ipl winner button)<img width="915" height="703" alt="ipl" src="https://github.com/user-attachments/assets/7c748594-8d85-4a25-afec-6d723a8419ca" />
+2. After click (ipl winner button) Randomly display <img width="792" height="620" alt="stats" src="https://github.com/user-attachments/assets/85b17de0-3021-4820-badf-c97ee88cad4d" />
 
 
 📜 License
