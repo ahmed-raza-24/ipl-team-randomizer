@@ -1,0 +1,117 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Main Container */
+.iplteams {
+    width: 600px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* Heading */
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: #f7d840;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* Team Name Box */
+#team {
+    background: #111;
+    padding: 25px 0;
+    font-size: 50px;
+    font-weight: 800;
+    border-radius: 12px 12px 0 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Subheading */
+#fullname {
+    background: #111;
+    padding: 12px 0;
+    font-size: 16px;
+    color: #ccc;
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 25px;
+}
+
+/* Stats Cards Container */
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* Individual Card Style */
+.card {
+    flex: 1;
+    background: linear-gradient(135deg, #2c2c2c, #3a3a3a);
+    padding: 35px 10px;
+    border-radius: 14px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    /* box-shadow: 0 4px 12px rgba(0,0,0,0.4); */
+    transition: 0.25s ease-in-out;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-10px) scale(0.95);
+    box-shadow: 0 10px 25px rgba(255,255,255,0.15);
+}
+
+#tropies{
+    color: gold;
+    box-shadow: 0 4px 12px rgba(255,215,0,0.4);
+}
+#wins {
+    color: lightgreen;
+    box-shadow: 0 4px 12px rgba(144,238,144,0.4);
+}
+#lost{
+    color: lightcoral;
+    box-shadow: 0 4px 12px rgba(255,127,127,0.4);
+}
+
+/* Button */
+.random {
+    margin-top: 30px;
+    padding: 14px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    background: linear-gradient(135deg, #60c9ff, #1ea9ff);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.random:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 162, 255, 0.6);
+}
